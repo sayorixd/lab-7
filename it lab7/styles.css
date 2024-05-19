@@ -1,0 +1,43 @@
+
+body {
+  background-color: #FFD9D9; 
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  }
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.element {
+  background: white;
+  border-radius: 10px;
+  border: 1px rgba(0, 0, 0, 0.40) solid;
+  margin: 20px;
+  padding: 20px;
+  width: 460px;
+  line-height: normal;
+}
+
+.header {
+  font-size: 37px;
+  position: relative;
+  left: 10px;
+  top: -10px;
+  margin-bottom: 0;
+  padding-bottom:0;
+}
+
+.list {
+  position: relative;
+  padding-top: 0;
+  margin-top: 0;
+  left: 10px;
+}
